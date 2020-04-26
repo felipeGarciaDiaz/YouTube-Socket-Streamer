@@ -25,7 +25,7 @@ ytVideo.on("close", (): void => {
         socket.emit("video", video_link);
 
         let updateStateHandler = (request: string, approval: string): void => {
-            socket.on(request, function (data: string) {
+            socket.on(request, (data: string): void => {
                 ioS.emit(approval, data);
             });
         };
