@@ -1,4 +1,4 @@
-var socket: any = io();
+const socket: any = io();
 declare var player: any;
 
 socket.on("video", (video: string): void => {
