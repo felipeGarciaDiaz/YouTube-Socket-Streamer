@@ -3,7 +3,7 @@ var app = express();
 var http = require("http").createServer(app);
 var ioS = require("socket.io")(http);
 var readline = require("readline");
-var PORT = 42553;
+var PORT = 8080;
 var ytVideo = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
