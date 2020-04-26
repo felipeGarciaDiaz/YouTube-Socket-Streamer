@@ -5,7 +5,8 @@
     "main": "server.js",
     "scripts": {
         "depend": "npm install socket.io socket.io-client express typescript @types/youtube @types/express @types/socket.io",
-        "start": "node ./backend/server.js"
+        "start": "node ./backend/server.js && tsc ./backend/server.ts && tsc ./client/src/app.ts"
+        
     },
     "keywords": [
         "youtube-api",
