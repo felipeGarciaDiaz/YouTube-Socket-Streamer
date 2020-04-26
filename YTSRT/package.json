@@ -1,0 +1,21 @@
+{
+    "name": "ytsrt",
+    "version": "1.0.0",
+    "description": "Real-time YouTube streaming using web sockets and the youtube API",
+    "main": "server.js",
+    "scripts": {
+        "depend": "npm install socket.io socket.io-client express typescript @types/youtube @types/express @types/socket.io",
+        "start": "node ./backend/server.js"
+    },
+    "keywords": [
+        "youtube-api",
+        "socket.io",
+        "web",
+        "sockets",
+        "real-time",
+        "typescript",
+        "nodejs"
+    ],
+    "author": "Felipe Garcia Diaz",
+    "license": "ISC"
+}
